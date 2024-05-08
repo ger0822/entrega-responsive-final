@@ -1,0 +1,19 @@
+/* variables */
+@import "./utilities/variables";
+
+/*layouts*/
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/main-index";
+@import "./layout/main-somos";
+@import "./layout/main-hacemos";
+@import "./layout/main-contacto";
+@import "./layout/_main-biblioteca";
+@import "./layout/mediaQuery/media425";
+@import "./layout/mediaQuery/media768";
+@import "./layout/mediaQuery/media840";
+@import "./layout/mediaQuery/media1070";
+@import "./layout/mediaQuery/media1400";
+
+/* components */
+@import "./components/cards";

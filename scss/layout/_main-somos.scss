@@ -1,0 +1,28 @@
+main{
+    .fluid-layout-container{
+        margin-top:30px;
+        .fluid-layout{
+            position:relative;
+            left: 10.28rem;
+            bottom:5.32rem;
+        }
+    }
+    .contenido-familias-pioneras{
+        width: 16.25rem;
+        height: 12.35rem;
+        .contenido img{
+            width:100%;
+            height:50%;
+        }
+        .contenido-texto-familias{
+            position: relative;
+            left: 18.28rem;
+            bottom:12.32rem;
+        }
+
+        .our-team-section{
+            margin:75px;
+        }
+        
+    }
+}

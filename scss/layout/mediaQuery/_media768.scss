@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px){
+    header{
+        justify-content: space-around;
+    }
+
+    .navBar{
+        padding-right: none;
+    }
+
+    .navBar li a{
+        font-size: 30px;
+    }
+
+    .team-cards{
+        display:flex;
+        flex-direction:column;
+    }
+    .team-card{
+        width:85%; 
+        margin: 25px auto;
+    }
+    .contenido-texto-familias{
+        text-align: left;
+    }
+    .wp-block-container{
+        flex-wrap:wrap;
+        max-width: min(100% ,1024px);
+        align-items: column;
+        }
+}

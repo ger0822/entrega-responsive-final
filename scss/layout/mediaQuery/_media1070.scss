@@ -1,0 +1,74 @@
+@media (max-width:1070px){
+    .nav{
+        /* position:fixed; */
+        top:70px;
+        left:0;
+        width:100%;
+        padding: 10px 0 25px;
+    }
+
+    .navBar{
+        flex-direction:column;
+        align-items:center;
+        row-gap: 20px;
+    }
+
+    .bar{
+        height: 2px;
+        width: 27px;
+        background: black;
+        margin: 5px 0;
+        opacity: 0.8;
+    }
+
+    .hamburguer{
+        display: block;
+    }
+
+    .showcase .hero-graphic-wrapper{
+        grid-column-start: 1;
+        grid-column-end: 1;
+
+    }
+
+    .div-container .hero-text{
+        margin-left:80px;
+    }
+
+
+    .div-container .hero-description{
+        margin-top:80px; 
+        margin-left: 100px;
+        padding: 10px 0 25px;
+
+    }
+
+    .btn{
+        margin-left:80px;
+    }
+
+    .card{
+        margin-left: 70px;
+        max-width: 850px;
+    }
+
+    .btn-group{
+        padding-top: 2%;
+        margin-left: 70px ;
+    }
+    
+    .search{
+        padding-top: 10%;
+        margin-left: 70px;
+    }
+
+    .fluid-layout h1{
+        margin-top:150px;
+        margin-right: 1200px;
+        position:relative;
+    }
+
+    .fluid-layout .descripcion-entrada{
+        margin-right:800px;
+    }
+}

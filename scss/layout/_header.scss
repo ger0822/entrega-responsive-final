@@ -1,0 +1,51 @@
+header {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 6.25rem;
+    width:100%;
+    background-color: $primary-color;
+
+    nav{
+        width:70%; 
+        .navBar{
+            display:flex;
+            gap:40px;
+            padding-right:20px;
+            list-style: none;
+            li{
+                a{
+                    text-decoration: none;
+                    color:black;
+                    font-size:20px;
+
+                    &:hover{
+                        font-family: verdana;
+                        color: #222831;
+                    }
+                }
+                
+            }
+
+        }
+    }
+
+    .hamburguer{
+        display: none;
+        cursor: pointer;
+    }
+    div{
+        display: none;
+        cursor: pointer;
+    }
+    .newsletter-subtitle{
+        margin-bottom: 40px;
+        margin-left: 6px;
+    }
+    .know-more{
+        margin-right: 1000px;
+    }
+}
+
+
+

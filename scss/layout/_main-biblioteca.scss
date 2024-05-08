@@ -1,0 +1,47 @@
+
+main{
+    .feature-knowledge-header{
+        font-family: "Work Sans", sans-serif;
+        font-weight: 700;
+        margin-top: 100px;
+    }
+    .features-post-list {
+        .card{
+            margin-top:80px;
+        }
+    }
+    .showcase{
+        background-color: $primary-color;
+        .div-container{
+            .hero-wrapper{ 
+                grid-area: main;
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                grid-template-rows: repeat(1,1fr);
+    
+            .hero-description{
+                grid-column-start: 1;
+                grid-column-end: 1;
+                }
+            
+            }
+            .hero-text h1{
+                font-family: "Work Sans", sans-serif;
+                font-weight: 700;
+            }
+
+        }
+        .btn{
+                grid-column-start: 1;
+                grid-column-end: 1;
+                text-align: left;
+                margin-bottom:20px;
+            }
+
+        .hero-graphic-wrapper{
+                grid-column-start: 2;
+                grid-row: 2;
+        }
+
+    }
+}
